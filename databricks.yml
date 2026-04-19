@@ -1,0 +1,19 @@
+# This is a Databricks asset bundle definition for ruqiauh.
+# The Databricks extension requires databricks.yml configuration file.
+# See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
+
+bundle:
+  name: ruqiauh
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://dbc-0b0cf7c9-0f2f.cloud.databricks.com
+
+  ## Optionally, there could be 'staging' or 'prod' targets here.
+  #
+  # prod:
+  #   workspace:
+  #     host: https://dbc-0b0cf7c9-0f2f.cloud.databricks.com
